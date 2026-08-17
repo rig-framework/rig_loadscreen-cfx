@@ -1,3 +1,6 @@
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d7eecb9a-e7da-4276-a3b0-1327c89b5cee" />
+
+
 # rig_loadscreen-cfx
 
 A simple load screen built for RIG - CFX platforms (FiveM/RedM).
