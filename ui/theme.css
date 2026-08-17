@@ -1,0 +1,43 @@
+/* 
+    Import Fonts
+    
+    Can import from https://fonts.google.com for example
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth@75..100&display=swap');
+
+/* 
+    Theme
+    Basic default theme settings
+*/
+:root {
+    /* Typography */
+    --header_font: "Iceland";
+    --text_font: "Roboto";
+
+    /* Backgrounds */
+    --background_main: rgba(18, 18, 18, 0.85);
+    --background_hover: rgba(28, 28, 28, 0.85);
+
+    /* Text */
+    --text_primary: #fff;
+    --text_secondary: #b4b4b4;
+
+    /* Accents */
+    --accent: #F97316;
+    --accent2: #c95f13;
+    --accent_fade: rgba(249, 115, 22, 0.02);
+    --accent_glow: rgba(249, 115, 22, 0.12);
+    --accent_glow_inset: rgba(249, 115, 22, 0.05);
+    --accent_glow_strong: rgba(249, 115, 22, 0.6);
+    --ambient_glow_color: rgba(249, 115, 22, 0.06);
+
+    /* Borders */
+    --border_light: 0.2vh solid rgba(255, 255, 255, 0.1);
+
+    /* Canvas Block Colors */
+    --block_top: #ff781f;
+    --block_mid: #ea580c;
+    --block_bottom: #c2410c;
+}

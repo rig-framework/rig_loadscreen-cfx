@@ -1,0 +1,19 @@
+{
+    "loadscreen": {
+        "welcome": "WELCOME, ",
+        "default_player": "PLAYER",
+        "deploy": "DEPLOY",
+        "disconnect": "DISCONNECT",
+        "final_status": "RIG.LI active. Awaiting player deployment...",
+        "steps": [
+            "Establishing secure node handshake...",
+            "Allocating memory buffers & asset streams...",
+            "Resolving core dependencies & scripts...",
+            "Synchronizing telemetry and player state...",
+            "Calibrating environmental matrices & lighting...",
+            "Injecting client-side resources...",
+            "Verifying node integrity & checksums...",
+            "Optimizing network pipeline latency..."
+        ]
+    }
+}
