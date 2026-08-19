@@ -30,4 +30,7 @@ shared_script "init.lua"
 client_script "src/client.lua"
 server_script "src/server.lua"
 
-dependency "rig" 
+dependencies {
+    "rig",
+    "rig_avatars"
+}

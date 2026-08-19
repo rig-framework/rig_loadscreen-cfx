@@ -25,11 +25,9 @@ RegisterNUICallback("loadscreen:deploy", function(data, cb)
     ShutdownLoadingScreen()
     ShutdownLoadingScreenNui()
     Wait(350)
-    
-    -- @todo Uncomment when profiles resource ready
-    -- TriggerServerEvent("rig:server:fetch_profiles")
 
-    DoScreenFadeIn(500)
+    TriggerServerEvent("rig_avatars:server:request_avatars")
+    
     cb(true)
 end)
 
